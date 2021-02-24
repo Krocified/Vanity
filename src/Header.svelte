@@ -1,4 +1,6 @@
 <script>
+    import Announcement from "./Announcement.svelte";
+
     let bgImage = "assets/zag.png"
 </script>
 
@@ -10,11 +12,7 @@
         Your Daily Source of Self Esteem
     </p>
 </div>
-<div id="announcement">
-    <h4>
-        Don't forget to sleep!
-    </h4>
-</div>
+<!-- <Announcement/> -->
 
 <style>
     
@@ -26,13 +24,7 @@
 		height: 40vh;
     }
 
-    #announcement{
-        margin-top: 0;
-		background-color: #222222;
-		width: 100%;
-		height: 75px;
-    }
-
+    
     h1{
         margin: 0;
         padding-top: 15vh;
@@ -40,15 +32,6 @@
         font-size: 10vw;
         text-transform: uppercase;
         text-align: center;
-    }
-
-    h4{
-        margin: 0;
-        padding-top: 15px;
-        color: white;
-        font-size: 5vw;
-        text-align: center;
-        font-weight: lighter;
     }
 
     p{
@@ -71,10 +54,6 @@
             margin-left: 15%;
             font-size: 70px;
 			text-align: left;
-        }
-
-        h4{
-            font-size: 30px;
         }
 
         p {

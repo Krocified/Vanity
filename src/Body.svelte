@@ -1,9 +1,10 @@
 <script>
     import Gallery from "./Gallery.svelte";
+    import Message from "./Message.svelte";
     import TodoList from "./TodoList.svelte";
-
 </script>
 
+<Message/>
 <div id="body">
 	<div class="row">
         <div class="column left">
@@ -58,10 +59,12 @@
 
         .left {
             width: 100%;
+            height: 1000px;
         }
 
         .right {
             width: 100%;
+            height: 1000px;
         }
 	}
 </style>

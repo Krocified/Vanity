@@ -53,14 +53,8 @@
         overflow-y: scroll;
     }
 
-    @media screen and (max-width: 800px) {
-    .column {
-        flex: 45%;
-        max-width: 50%;
-    }
-    }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1200px) {
     .column {
         flex: 100%;
         max-width: 100%;
