@@ -43,9 +43,7 @@
     }
 
     @media (min-width: 700px) {
-        #announcement{
-            height: 75px;
-        }      
+  
         #header{
             height: 425px;
         } 

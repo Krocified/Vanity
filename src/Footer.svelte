@@ -26,7 +26,6 @@
 
     @media (max-width: 850px) {
 		#copyright{
-            margin-top: 1000px;
             bottom: 0;
         }
 	}

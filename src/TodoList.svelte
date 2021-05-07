@@ -63,15 +63,14 @@
 </div>
     
 <style>
-
     .todoList{
         position: relative;
     }
 
     .center{
         text-align: center;
-        height:600px;
-        display:block;
+        height: 600px;
+        display: block;
     }
 
     .hypnos{
@@ -81,6 +80,8 @@
 
     img{
         margin-left: 40px;
+        position: absolute;
+        bottom: 20px;
     }
 
     input[type=text]{
@@ -111,7 +112,7 @@
         font-size: 17px;
     }
 
-    h1{
+    h1 {
         text-align: center;
         font-weight: lighter;
         color: rgb(255, 255, 255);

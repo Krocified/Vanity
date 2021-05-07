@@ -55,9 +55,9 @@
 
 
     @media screen and (max-width: 1200px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+        .column {
+            flex: 100%;
+            max-width: 100%;
+        }
 }
 </style>

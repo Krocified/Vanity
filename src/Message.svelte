@@ -11,7 +11,6 @@
         height: 90%;
         position: absolute;
         bottom: 0;
-
     }
 
     .message{
@@ -47,6 +46,7 @@
         .text{
             margin: 0 auto;            
             padding: 20px;
+            padding-top: 50px;
             width: 80%;
             color: white;
             float: none;
@@ -54,5 +54,6 @@
             font-size: 30px;
             font-weight: lighter;
         }
+    }
 
 </style>

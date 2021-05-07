@@ -1,4 +1,5 @@
 <script>
+    import ContactUs from "./ContactUs.svelte";
     import Gallery from "./Gallery.svelte";
     import Message from "./Message.svelte";
     import TodoList from "./TodoList.svelte";
@@ -15,6 +16,7 @@
         </div>
     </div>
 </div>
+<ContactUs/>
 
 <style>
     #body{
